@@ -11,8 +11,6 @@ int main()
     
     printf("\nBefore swapping:\n");
     printf("a = %d, b = %d\n", a, b);
-
-
     
     printf("\nAfter swapping:\n");
     printf("a = %d, b = %d\n", b,a);
