@@ -4,10 +4,8 @@ int main()
  {
     float radius, area;
 
-    
     printf("Enter the radius of the square: ");
     scanf("%f", &radius);
-
 
     area =  radius*radius ;
 
@@ -15,3 +13,4 @@ int main()
 
     return 0;
 }
+
