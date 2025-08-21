@@ -6,14 +6,14 @@ int main()
      int recharge_choice;
 
     printf("Press 1 for English\n");
-    printf("Press 2 for Hindi\n");
-    printf("Press 3 for Gujarati\n");
+    printf("हिन्दी के लिए 2 दबाए  । \n");
+    printf("ગુજરાતી માટે 3 દબાવો.\n");
     printf("Enter your choice: ");
     scanf("%d", &language_choice);
 
     switch (language_choice) 
         {
-           case 1: // English
+           case 1: 
                printf("\nPress 1 for Internet Recharge\n");
                printf("Press 2 for Top-up Recharge\n");
                printf("Press 3 for Special Recharge\n");
@@ -36,26 +36,26 @@ int main()
               }
             break;
 
-         case 2: // Hindi
-            printf("\nInternet Recharge ke liye 1 dabaiye\n");
-            printf("Top-up Recharge ke liye 2 dabaiye\n");
-            printf("Special Recharge ke liye 3 dabaiye\n");
-            printf("Enter your choice: ");
+         case 2: 
+            printf("\nइंटरनेट रिचार्ज के लिए 1 दबाए । \n");
+            printf("टॉप-अपरिचार्ज के लिए 2 दबाए । \n");
+            printf("स्पेशल रिचार्ज के लिए 3 दबाए । \n");
+            printf("अपनी पसंद दाखिल कीजिए : ");
             scanf("%d", &recharge_choice);
 
             switch (recharge_choice) 
             {
                 case 1:
-                    printf("Aapne safalta purvak Internet Recharge kiya hai.\n");
+                    printf("आपने सफलतापूर्वक इंटरनेट रिचार्ज कर लिया है । \n");
                     break;
                 case 2:
-                    printf("Aapne safalta purvak Top-up Recharge kiya hai.\n");
+                    printf("आपने सफलतापूर्वक टॉप-अप रिचार्ज कर लिया है। \n");
                     break;
                 case 3:
-                    printf("Aapne safalta purvak Special Recharge kiya hai.\n");
+                    printf("आपने सफलतापूर्वक स्पेशल रिचार्ज कर लिया है । \n");
                     break;
                 default:
-                    printf("Galat recharge vikalp.\n");
+                    printf("गलत  रिचार्ज वीकल्प । \n");
             }
             break;
 
